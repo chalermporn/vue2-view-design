@@ -1,15 +1,14 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/logo.png" />
     <div>
-      <p>
-        If ViewUI is successfully added to this project, you'll see an
+      <p> If ViewUI is successfully added to this project, you'll see an
         <code v-text="'<Button>'"></code>
         below
       </p>
       <Button type="primary">Button</Button>
     </div>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
@@ -17,7 +16,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     HelloWorld
   }
@@ -26,11 +25,12 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    margin-top: 60px;
+    color: #2c3e50;
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    text-align: center;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 </style>
