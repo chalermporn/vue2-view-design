@@ -4,7 +4,7 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import './plugins/iview.js'
-
+import '@babel/polyfill'
 Vue.config.productionTip = false
 
 new Vue({
